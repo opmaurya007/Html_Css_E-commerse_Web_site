@@ -1,0 +1,360 @@
+.section-p1 {
+  padding: 40px 80px;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+  background: #e3e6f3;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#navbar li {
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+}
+#navbar li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a1a;
+  transition: 0.3s ease;
+}
+#navbar li a:hover,
+#navbar li a.active {
+  color: #088178;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after {
+  content: "";
+  width: 30%;
+  height: 2px;
+  background: #088178;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
+
+#hero button {
+  background: white;
+  color: rgb(213, 166, 9);
+  background-repeat: no-repeat;
+  border-radius: 45%;
+  text-align: center;
+}
+
+.split {
+  height: 40%;
+  width: 50%;
+  position: absolute;
+  z-index: 1;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: rgb(196, 193, 193);
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: rgb(210, 208, 206);
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.column1 {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+#product .fe {
+  padding: 2px 16px;
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+#product .fe-box {
+  width: 180px;
+  text-align: center;
+  padding: 25px 15px;
+  box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+  border: 1px solid#cce7d0;
+  border-radius: 4px;
+  margin: 15px 0px;
+}
+
+#product .fe-box:hover {
+  box-shadow: 10px 10px 54px rgba(0, 0, 0, 0.03);
+}
+#product .fe-box h6 {
+  padding: 9px 8px 6px;
+  line-height: 1;
+  border-radius: 4px;
+}
+#product .fe-box img {
+  width: 100px;
+  margin: 10px;
+}
+#product {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#popular {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 80px;
+}
+#popular .momo1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 580%;
+  height: 50vh;
+  background-image: url(img/momo.jpeg);
+  background-color: rgb(147, 151, 150);
+  background-size: cover;
+  background-position: center;
+}
+
+#popular .momo2 {
+  background-image: url(img/vegetables.jpg);
+}
+#popular .momo3 {
+  background-image: url(img/fas_food.jpg);
+}
+#popular .momo4 {
+  background-image: url(img/puri.jpeg);
+}
+
+.section-m1 {
+  margin: 40px 0;
+}
+body {
+  width: 100%;
+}
+.section-p1 {
+  padding: 40px 80px;
+}
+p {
+  font-size: 16px;
+  color: #465b52;
+  margin: 15px 0 20px 0;
+}
+
+#banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 40vh;
+  background-image: url(img/bg3.jpg);
+  background-color: rgb(147, 151, 150);
+  background-size: cover;
+  background-position: center;
+}
+#banner h2 {
+  font-size: 35px;
+  padding: 5px 0;
+}
+#banner h6 {
+  font-size: 16px;
+  padding: 10px 0;
+}
+#banner button{
+  background-color: orange;
+  border-radius: 10px;
+
+}
+
+.aims {
+  height: 40%;
+  width: 50%;
+  position: absolute;
+}
+
+/* Control the left side */
+#goal .aim1 {
+  left: 0;
+  background-color: rgb(196, 193, 193);
+}
+
+/* Control the right side */
+#goal .aim2 {
+  right: 0;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(210, 208, 206);
+}
+
+#newsetter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 35vh;
+  background-image: url(img/bg2.jpg);
+  background-color: rgb(147, 151, 150);
+  background-size: cover;
+  background-position: center;
+}
+#newsetter .form{
+  display: flex;
+width: 40%;
+
+}
+
+
+#newsetter input{
+  height: 2.125rem;
+
+  border-radius: 10px;
+  outline: none; 
+
+}
+#newsetter button{
+  background-color: orange;
+
+ 
+  border-radius: 10px;
+
+}
+
+
+
+
+.logo2 {
+  width: 8px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.detail {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#top{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color:rgb(201, 172, 116);
+}
+#top .top1 {
+  display: flex; /* Use flexbox for horizontal alignment */
+  align-items: center; /* Center vertically within the container */
+}
+
+#search{
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#search input{
+box-shadow: orange;
+}
+
+#search button{
+  background-color: orange;
+
+}
+#search .search1 {
+  display: flex; /* Use flexbox for horizontal alignment */
+  align-items: center; /* Center vertically within the container */
+}
+
+.inline-text {
+  margin-right: 10px; /* Add some spacing between text and button */
+}
+
+.inline-button {
+  padding: 5px 10px; /* Add padding to the button for better appearance */
+}
